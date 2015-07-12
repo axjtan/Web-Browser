@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26CEA8F1B52498800624142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA8E1B52498800624142 /* main.m */; };
+		D26CEA921B52498800624142 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA911B52498800624142 /* AppDelegate.m */; };
+		D26CEA951B52498800624142 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEA941B52498800624142 /* ViewController.m */; };
+		D26CEA981B52498800624142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26CEA961B52498800624142 /* Main.storyboard */; };
+		D26CEA9A1B52498800624142 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26CEA991B52498800624142 /* Images.xcassets */; };
+		D26CEA9D1B52498800624142 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D26CEA9B1B52498800624142 /* LaunchScreen.xib */; };
+		D26CEAA91B52498800624142 /* NasaBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D26CEAA81B52498800624142 /* NasaBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D26CEAA31B52498800624142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D26CEA811B52498800624142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26CEA881B52498800624142;
+			remoteInfo = NasaBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D26CEA891B52498800624142 /* NasaBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26CEA8D1B52498800624142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26CEA8E1B52498800624142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D26CEA901B52498800624142 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D26CEA911B52498800624142 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D26CEA931B52498800624142 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D26CEA941B52498800624142 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D26CEA971B52498800624142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D26CEA991B52498800624142 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D26CEA9C1B52498800624142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D26CEAA21B52498800624142 /* NasaBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26CEAA71B52498800624142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D26CEAA81B52498800624142 /* NasaBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NasaBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26CEA861B52498800624142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26CEA9F1B52498800624142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26CEA801B52498800624142 = {
+			isa = PBXGroup;
+			children = (
+				D26CEA8B1B52498800624142 /* NasaBrowser */,
+				D26CEAA51B52498800624142 /* NasaBrowserTests */,
+				D26CEA8A1B52498800624142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26CEA8A1B52498800624142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA891B52498800624142 /* NasaBrowser.app */,
+				D26CEAA21B52498800624142 /* NasaBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26CEA8B1B52498800624142 /* NasaBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA901B52498800624142 /* AppDelegate.h */,
+				D26CEA911B52498800624142 /* AppDelegate.m */,
+				D26CEA931B52498800624142 /* ViewController.h */,
+				D26CEA941B52498800624142 /* ViewController.m */,
+				D26CEA961B52498800624142 /* Main.storyboard */,
+				D26CEA991B52498800624142 /* Images.xcassets */,
+				D26CEA9B1B52498800624142 /* LaunchScreen.xib */,
+				D26CEA8C1B52498800624142 /* Supporting Files */,
+			);
+			path = NasaBrowser;
+			sourceTree = "<group>";
+		};
+		D26CEA8C1B52498800624142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEA8D1B52498800624142 /* Info.plist */,
+				D26CEA8E1B52498800624142 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D26CEAA51B52498800624142 /* NasaBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEAA81B52498800624142 /* NasaBrowserTests.m */,
+				D26CEAA61B52498800624142 /* Supporting Files */,
+			);
+			path = NasaBrowserTests;
+			sourceTree = "<group>";
+		};
+		D26CEAA61B52498800624142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D26CEAA71B52498800624142 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26CEA881B52498800624142 /* NasaBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26CEAAC1B52498800624142 /* Build configuration list for PBXNativeTarget "NasaBrowser" */;
+			buildPhases = (
+				D26CEA851B52498800624142 /* Sources */,
+				D26CEA861B52498800624142 /* Frameworks */,
+				D26CEA871B52498800624142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasaBrowser;
+			productName = NasaBrowser;
+			productReference = D26CEA891B52498800624142 /* NasaBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D26CEAA11B52498800624142 /* NasaBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26CEAAF1B52498800624142 /* Build configuration list for PBXNativeTarget "NasaBrowserTests" */;
+			buildPhases = (
+				D26CEA9E1B52498800624142 /* Sources */,
+				D26CEA9F1B52498800624142 /* Frameworks */,
+				D26CEAA01B52498800624142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D26CEAA41B52498800624142 /* PBXTargetDependency */,
+			);
+			name = NasaBrowserTests;
+			productName = NasaBrowserTests;
+			productReference = D26CEAA21B52498800624142 /* NasaBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26CEA811B52498800624142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "NP ECE BME Centre";
+				TargetAttributes = {
+					D26CEA881B52498800624142 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D26CEAA11B52498800624142 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D26CEA881B52498800624142;
+					};
+				};
+			};
+			buildConfigurationList = D26CEA841B52498800624142 /* Build configuration list for PBXProject "NasaBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26CEA801B52498800624142;
+			productRefGroup = D26CEA8A1B52498800624142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26CEA881B52498800624142 /* NasaBrowser */,
+				D26CEAA11B52498800624142 /* NasaBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26CEA871B52498800624142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26CEA981B52498800624142 /* Main.storyboard in Resources */,
+				D26CEA9D1B52498800624142 /* LaunchScreen.xib in Resources */,
+				D26CEA9A1B52498800624142 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26CEAA01B52498800624142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26CEA851B52498800624142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26CEA951B52498800624142 /* ViewController.m in Sources */,
+				D26CEA921B52498800624142 /* AppDelegate.m in Sources */,
+				D26CEA8F1B52498800624142 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D26CEA9E1B52498800624142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26CEAA91B52498800624142 /* NasaBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D26CEAA41B52498800624142 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D26CEA881B52498800624142 /* NasaBrowser */;
+			targetProxy = D26CEAA31B52498800624142 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D26CEA961B52498800624142 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26CEA971B52498800624142 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D26CEA9B1B52498800624142 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D26CEA9C1B52498800624142 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26CEAAA1B52498800624142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D26CEAAB1B52498800624142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26CEAAD1B52498800624142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NasaBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D26CEAAE1B52498800624142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NasaBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D26CEAB01B52498800624142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NasaBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaBrowser.app/NasaBrowser";
+			};
+			name = Debug;
+		};
+		D26CEAB11B52498800624142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NasaBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaBrowser.app/NasaBrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26CEA841B52498800624142 /* Build configuration list for PBXProject "NasaBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26CEAAA1B52498800624142 /* Debug */,
+				D26CEAAB1B52498800624142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26CEAAC1B52498800624142 /* Build configuration list for PBXNativeTarget "NasaBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26CEAAD1B52498800624142 /* Debug */,
+				D26CEAAE1B52498800624142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D26CEAAF1B52498800624142 /* Build configuration list for PBXNativeTarget "NasaBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26CEAB01B52498800624142 /* Debug */,
+				D26CEAB11B52498800624142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26CEA811B52498800624142 /* Project object */;
+}
